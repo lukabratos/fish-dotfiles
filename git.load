@@ -8,4 +8,5 @@ alias gch='git checkout'
 alias gcm='git checkout master'
 alias gb='git branch'
 alias gst='git status -sb'
+alias gcl='git clean'
 alias grm="git status | grep deleted | awk '{\$1=\$2=\"\"; print \$0}' | \perl -pe 's/^[ \t]*//' | sed 's/ /\\\\ /g' | xargs git rm"
