@@ -1,3 +1,3 @@
-function gpu
+function gpm
   git push origin master
 end
