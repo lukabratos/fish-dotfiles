@@ -1,3 +1,3 @@
 function gc
-  git commit -am
+  git commit -a
 end
