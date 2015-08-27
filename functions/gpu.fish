@@ -1,3 +1,3 @@
 function gpu
-  git push origin
+  git push origin $argv
 end

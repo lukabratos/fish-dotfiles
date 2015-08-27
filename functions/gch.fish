@@ -1,3 +1,3 @@
 function gch
-  git checkout
+  git checkout $argv
 end

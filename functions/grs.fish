@@ -1,3 +1,3 @@
 function grs
-  git reset --soft
+  git reset --soft $argv
 end
