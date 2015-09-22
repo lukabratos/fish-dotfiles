@@ -9,3 +9,4 @@ set PATH ~/bin $PATH
 
 set -gx BABYLON_WWW /Users/lukabratos/Developer/backbone
 set -gx BABYLON_IOS /Users/lukabratos/Developer/babylon-ios
+set -gx BABYLON_ANDROID /Users/lukabratos/Developer/babylon-android
