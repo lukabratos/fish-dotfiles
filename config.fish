@@ -10,3 +10,11 @@ set PATH ~/bin $PATH
 set -gx BABYLON_WWW /Users/lukabratos/Developer/backbone
 set -gx BABYLON_IOS /Users/lukabratos/Developer/babylon-ios
 set -gx BABYLON_ANDROID /Users/lukabratos/Developer/babylon-android
+
+function fish_prompt
+    set_color $fish_color_cwd
+    echo -n (prompt_pwd)
+    echo -n (git-radar --fish --fetch)
+    set_color normal
+    echo -n ' > '
+end
