@@ -1,3 +1,3 @@
 function gd
-  git diff
+  git diff --color | diff-so-fancy
 end
