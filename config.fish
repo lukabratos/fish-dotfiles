@@ -16,5 +16,5 @@ function fish_prompt
     echo -n (prompt_pwd)
     echo -n (git-radar --fish --fetch)
     set_color normal
-    echo -n ' > '
+    echo -n ' (ノಠ益ಠ)ノ彡 '
 end
